@@ -1,0 +1,24 @@
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: #79c879;
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.career-form fieldset {
+    border: 1px;
+    border-radius: 6px;
+    padding: 24px 30px;
+    width: 40%;
+    text-align: center;
+}
+
+.log-hide {
+    display: block;
+}
+
+.logout-hide {
+    display: block;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Acheron</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" media="screen" href="login.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="home.css" />
+    <!-- <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    <script src="bower_components/firebaseui/dist/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="bower_components/firebaseui/dist/firebaseui.css" />-->
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <header class=#header>
+
+    </header>
+    <div class="container">
+        <input id="txtEmail" type="email" placeholder="Email">
+
+        <input id="txtPassword" type="password" placeholder="Password">
+
+        <button id="btnLogin" class="btn-btn-action" onclick="putLog()">
+           Log in
+       </button>
+
+        <button id="btnSignUp" class="btn-btn-secondary" onclick="putSign()">
+           Sign Up
+       </button>
+
+        <button id="btnLogout" class="btn-btn-action-hide" onclick="putOut()">
+           Log Out
+       </button>
+    </div>
+</body>
+
+</html>
