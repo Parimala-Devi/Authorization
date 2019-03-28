@@ -1,0 +1,32 @@
+#task {
+    padding: 18px;
+    display: block;
+    text-align: center;
+}
+
+.add-task {
+    padding: 5px;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+button {
+    height: 50px;
+    width: 13%;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.task-to-do {
+    float: left;
+    width: 50%;
+}
+
+.task-done {
+    float: left;
+    width: 50%;
+}
